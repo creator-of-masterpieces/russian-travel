@@ -1,0 +1,16 @@
+.header__lang-link_current {
+	position: relative;
+	
+}
+.header__lang-link_current::after {
+	content: "";
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+	width: 30px;
+	height: 1px;
+	background-color: #fff;
+}
