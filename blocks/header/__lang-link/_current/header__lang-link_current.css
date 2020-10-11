@@ -6,11 +6,11 @@
 	content: "";
 
 	position: absolute;
-	bottom: 0;
+	bottom: 5;
 	left: 0;
 
 	display: block;
 	width: 30px;
-	height: 1px;
+	height: 2px;
 	background-color: #fff;
 }

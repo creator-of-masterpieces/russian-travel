@@ -1,0 +1,27 @@
+.place__img-container {
+	width: 460px;
+	margin-right: 40px;
+}
+
+@media (max-width: 1024px) {
+	.place__img-container {
+	  width: 440px;
+		margin-right: 32px;
+	}
+	}
+
+@media (max-width: 768px) {
+	.place__img-container {
+		width: 340px;
+		margin-right: 28px;
+	}
+	}
+
+@media (max-width: 320px) {
+	.place__img-container {
+		width: 100%;
+		margin-right: 0;
+	}
+	}
+	
+	

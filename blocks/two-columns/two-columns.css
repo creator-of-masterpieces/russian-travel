@@ -1,0 +1,10 @@
+.two-columns {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media (max-width: 320px) {
+	.two-columns {
+		display: block;
+	}
+		}
