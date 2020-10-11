@@ -13,6 +13,11 @@
 	text-decoration: none;
 }
 
+.cover__item:hover::before,
+.cover__item:focus::before {
+	opacity: 0.8;
+}
+
 @media screen and (max-width: 1279px) {
 	.cover__item {
 		min-height: 640px;
@@ -41,8 +46,4 @@
 	right: 0;
 	background-color: #2A2C2F;
 	opacity: 0.3;
-}
-
-.cover__item:hover::before {
-	opacity: 0.8;
 }

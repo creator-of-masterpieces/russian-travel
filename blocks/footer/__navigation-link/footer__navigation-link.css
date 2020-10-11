@@ -5,6 +5,12 @@
 	text-decoration: none;
 }
 
+.footer__navigation-link:hover,
+.footer__navigation-link:focus {
+	opacity: .8;
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
 	.footer__navigation-link {
 		font-size: 24px;

@@ -7,6 +7,11 @@
 	margin-right: 18px;
 }
 
+.header__lang-link:hover,
+.header__lang-link:focus {
+	opacity: .8;
+}
+
 .header__lang-link:last-child {
 	margin-right: 0;
 }
