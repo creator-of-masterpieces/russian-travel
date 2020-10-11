@@ -12,9 +12,5 @@
 .place__url-link:hover,
 .place__url-link:focus {
 	text-decoration: underline;
-}
-
-.place__url-link:hover,
-.place__url-link:focus {
 	opacity: .8;
 }
