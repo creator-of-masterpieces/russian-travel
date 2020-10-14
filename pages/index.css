@@ -1,6 +1,7 @@
 /*ОБЩИЕ БЛОКИ*/
 
 @import url(../vendor/normalize.css);
+@import url(../fonts/font.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/container/container.css);
@@ -10,7 +11,6 @@
 /*БЛОК HEADER*/
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -20,18 +20,17 @@
 
 @import url(../blocks/main/main.css);
 
-/*БЛОК LEAD-ITNRO-CONTAINER*/
-
-@import url(../blocks/lead-intro-container/lead-intro-container.css);
-
 /*БЛОК LEAD*/
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/lead__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__image-container/lead__image-container.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+
+/*БЛОК INTRO-WRAP*/
+
+@import url(../blocks/intro-wrap/intro-wrap.css);
 
 /*БЛОК INTRO*/
 
@@ -40,6 +39,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-digit/intro__list-digit.css);
 
 /*БЛОК PHOTO-GRID*/
 
@@ -65,6 +65,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__item/cover__item.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__description/cover__description.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
@@ -79,31 +80,4 @@
 @import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-/*INTER 400*/
-
-@font-face {
-	font-family: "Inter";
-	font-weight: 400;
-	src: url('../fonts/Inter-Regular.woff') format('woff'),
-				url('../fonts/Inter-Regular.woff2') format('woff2');
-}
-
-/*INTER 700*/
-
-@font-face {
-	font-family: "Inter";
-	font-weight: 700;
-	src: url('../fonts/Inter-Bold.woff') format('woff'),
-				url('../fonts/Inter-Bold.woff2') format('woff2');
-}
-
-/*INTER 900*/
-
-@font-face {
-	font-family: "Inter";
-	font-weight: 900;
-	src: url('../fonts/Inter-Black.woff') format('woff'),
-				url('../fonts/Inter-Black.woff2') format('woff2');
-}
 
