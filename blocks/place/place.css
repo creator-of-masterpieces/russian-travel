@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1279px) {
 	.place {
-		width: calc(max-width: 100% - 48px * 2);
+		width: calc(100% - 48px * 2);
 		grid-template-columns: 440px 1fr;
 		gap: 48px 32px;
 	}
