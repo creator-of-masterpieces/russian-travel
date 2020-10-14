@@ -1,12 +1,6 @@
 .header__lang-links {
 	display: flex;
-
+	max-width: 78px;
+	min-width: 62px;
 	margin-top: 18px;
-}
-
-@media (max-width: 767px) {
-	.header__lang-links {
-		max-width: 62px;
-		margin-top: 14px;
-	}
 }

@@ -1,6 +1,5 @@
 .footer__navigation-item {
-  margin-right: 18px;
-
+	margin-right: 18px;
 	list-style: none;
 }
 
@@ -8,11 +7,8 @@
 	margin-right: 0;
 }
 
-
 @media screen and (max-width: 767px) {
 	.footer__navigation-item {
 		margin-bottom: 32px;
 	}
 }
-
-

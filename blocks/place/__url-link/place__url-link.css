@@ -1,8 +1,6 @@
 .place__url-link {
 	position: relative;
-
 	display: block;
-
 	font-size: 18px;
 	line-height: 1.22;
 	color: #fff;
@@ -10,5 +8,5 @@
 
 .place__url-link:hover,
 .place__url-link:focus {
-	opacity: .8;
+	opacity: 0.8;
 }

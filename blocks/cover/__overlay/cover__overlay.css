@@ -4,7 +4,11 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-
-	background-color: #2A2C2F;
+	background-color: #2a2c2f;
 	opacity: 0.3;
+}
+
+.cover__item:hover .cover__overlay,
+.cover__item:focus .cover__overlay {
+	opacity: 0.8;
 }

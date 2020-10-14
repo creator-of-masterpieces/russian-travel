@@ -3,21 +3,20 @@
 	line-height: 1.17;
 	color: #fff;
 	text-decoration: none;
-
 	margin-right: 18px;
-}
-
-.header__lang-link:hover,
-.header__lang-link:focus {
-	opacity: .8;
 }
 
 .header__lang-link:last-child {
 	margin-right: 0;
 }
 
-@media (max-width: 767px) {
-	.header__lang-link  {
+.header__lang-link:hover,
+.header__lang-link:focus {
+	opacity: 0.8;
+}
+
+@media (max-width: 320px) {
+	.header__lang-link {
 		font-size: 18px;
 		line-height: 1.11;
 	}
