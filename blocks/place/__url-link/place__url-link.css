@@ -4,6 +4,7 @@
 	font-size: 18px;
 	line-height: 1.22;
 	color: #fff;
+	transition: 0.1s linear;
 }
 
 .place__url-link:hover,

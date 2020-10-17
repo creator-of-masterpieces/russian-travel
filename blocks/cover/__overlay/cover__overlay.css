@@ -6,6 +6,7 @@
 	right: 0;
 	background-color: #2a2c2f;
 	opacity: 0.3;
+	transition: 0.2s linear;
 }
 
 .cover__item:hover .cover__overlay,

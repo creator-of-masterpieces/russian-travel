@@ -2,6 +2,7 @@
 	display: grid;
 	grid-template-columns: fit-content(460px) fit-content(484px);
 	gap: 48px 40px;
+	max-width: 984px;
 	margin-bottom: 80px;
 }
 
